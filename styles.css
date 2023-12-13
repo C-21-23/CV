@@ -1,0 +1,169 @@
+body {
+  font-family: 'Gill Sans';
+  color: #1c023a;
+  background-image: url("https://images.unsplash.com/photo-1531685250784-7569952593d2?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+p{
+  font-size: 18px;
+}
+a{
+  color: #554c5f;
+  text-decoration: none;
+} 
+a:hover{
+    color: #b07070;
+}
+li{
+  list-style-type: none;
+}
+li:hover{
+  list-style-type: none;
+  background-color: #f9f9d9;
+}
+h2{
+  text-align: center;
+}
+.nav{
+  list-style-type: none;
+  margin-left: -40px;
+  margin-top: 75px;
+  font-size: 22px;
+}
+.lang{
+  height: 35px;
+  width: 35px;
+  margin-top: 40px; 
+}
+.lang:hover{
+  background-color: #f9f9d9;
+}
+.leftpanel{
+  position: fixed;
+  width: 22%;
+  min-width: 250px;
+  min-height: 100%;
+  left: 8%;
+  top: 0%;
+  float: left;
+  background: linear-gradient(rgb(234, 234, 236), #c7c9c1);
+}
+.photo{
+  margin-top: 25px;
+  height: 200px;
+  width: 200px;
+  border-radius: 200px;
+}
+.midpanel{
+  position: absolute;
+  width: 60%;
+  top: 0%;
+  min-width: 700px;
+  min-height: 1080px;
+  margin-left: 445px;
+  background-color: #c7c9c1, 112, 183);
+}
+.about{
+  background: linear-gradient(rgb(234, 234, 236), #c7c9c1);
+  margin-left: 25px;
+  border: 4px dotted;
+  border-radius: 120px / 100px 10px;
+  padding: 10px;
+  margin-right: 25px;
+  margin-top: 10px;
+}
+.ph{
+  background: linear-gradient(rgb(234, 234, 236), #c7c9c1);
+  margin-left: 25px;
+  margin-top: 50px;
+  margin-left: 25px;
+  border: 4px dotted;
+  border-radius: 120px / 100px 10px;
+  padding: 10px;
+  margin-right: 25px;
+  height: 320px;
+}
+.subskills{
+    margin-top: -20px;
+}
+.education{
+  background: linear-gradient(rgb(234, 234, 236), #c7c9c1);
+  margin-left: 25px;
+  margin-top: 50px;
+  border: 4px dotted;
+  border-radius: 120px / 100px 10px;  padding: 10px;
+  margin-right: 25px;
+}
+.contacts{
+  background: linear-gradient(rgb(234, 234, 236), #c7c9c1);
+  margin-left: 25px;
+  margin-top: 50px;
+  border: 4px dotted;
+  border-radius: 120px / 100px 10px;  padding: 10px;
+  margin-right: 25px;
+
+}
+
+ul {
+  line-height: 2; 
+}
+
+.acro{
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+
+.skill{
+  margin-top: 20px;
+}
+.logo{
+  width: 20px;
+  height: 20px;
+}
+.kob2{
+  float: right;
+  margin-right: 100px;
+}
+.diagrammpl{
+  float: left;
+  margin-left: 30px;
+}
+.diagrammko{
+  float: left;
+  margin-left: 50px;
+}
+.diagrammkr{
+  float: left;
+  margin-left: 50px;
+}
+
+.clock {
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  background: rgb(192, 194, 153);
+  border-radius: 50%;
+}
+.hand {
+  width: 50%;
+  height: 2px;
+  background: rgb(146, 1, 1);
+  position: absolute;
+  top: 50%;
+  transform-origin: 100%;
+  transform: rotate(90deg);
+  transition: all 0.05s;
+  transition-timing-function: steps(60);
+}
+.hand:nth-child(1) {
+  height: 4px;
+  background: #020000;
+  position: absolute;
+  top: 50%;
+  transform-origin: 100%;
+  transform: rotate(90deg);
+  transition: all 0.05s;
+  transition-timing-function: steps(60);
+}
+
